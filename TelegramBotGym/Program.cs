@@ -4,10 +4,12 @@ namespace TelegramBotGym
 {
     class Program
     {
+        static TelegramBotGym telegramBotGym ;
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
+            telegramBotGym = new TelegramBotGym();
+            Console.ReadLine();
         }
+      
     }
 }
