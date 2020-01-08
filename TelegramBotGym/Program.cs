@@ -7,6 +7,7 @@ namespace TelegramBotGym
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
         }
     }
 }
