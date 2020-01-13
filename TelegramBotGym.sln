@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29403.142
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBotGym", "TelegramBotGym\TelegramBotGym.csproj", "{E8A9C656-F0CC-42FB-9A29-A3464797C213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramBotGym", "TelegramBotGym\TelegramBotGym.csproj", "{E8A9C656-F0CC-42FB-9A29-A3464797C213}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haliaha.DAL.Core", "Haliaha.DAL.Core\Haliaha.DAL.Core.csproj", "{2CE4E434-0AB8-49D6-9975-C49B7A337498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBotGym.DAL", "TelegramBotGym.DAL\TelegramBotGym.DAL.csproj", "{D8C72967-DC8E-4F54-9D63-0A12D7D1E4D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E8A9C656-F0CC-42FB-9A29-A3464797C213}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8A9C656-F0CC-42FB-9A29-A3464797C213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8A9C656-F0CC-42FB-9A29-A3464797C213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE4E434-0AB8-49D6-9975-C49B7A337498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE4E434-0AB8-49D6-9975-C49B7A337498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE4E434-0AB8-49D6-9975-C49B7A337498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE4E434-0AB8-49D6-9975-C49B7A337498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C72967-DC8E-4F54-9D63-0A12D7D1E4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C72967-DC8E-4F54-9D63-0A12D7D1E4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C72967-DC8E-4F54-9D63-0A12D7D1E4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C72967-DC8E-4F54-9D63-0A12D7D1E4D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

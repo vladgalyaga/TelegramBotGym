@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Vladyslav Haliaha</Authors>
+    <Company>Deloitte</Company>
+    <Product>TMAS Platform</Product>
+    <Description>SQL Database integration</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
